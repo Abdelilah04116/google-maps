@@ -155,8 +155,8 @@ Chaque page contient des données statiques que vous pouvez facilement modifier 
 ## 📞 Support
 
 Pour toute question ou problème, contactez-nous :
-- Email : contact@reviews-maps-pro.com
-- Téléphone : +33 1 23 45 67 89
+- Email : abdelilahourti@gmail.com
+- Téléphone : +212770539777
 
 ---
 
