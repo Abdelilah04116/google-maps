@@ -108,7 +108,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Info & Form */}
-      <section className="section-padding">
+      <section id="form-contact" className="section-padding">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}

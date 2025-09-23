@@ -205,12 +205,12 @@ const Home = () => {
             Rejoignez des centaines d'entrepreneurs qui ont déjà transformé leur réputation en ligne.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/pricing" className="btn-primary text-lg px-8 py-4">
+            <a href="/pricing#tarifs" className="btn-primary text-lg px-8 py-4">
               Voir nos tarifs
-            </Link>
-            <Link to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-blue font-semibold py-4 px-8 rounded-lg transition-all duration-300">
+            </a>
+            <a href="/contact#form-contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-blue font-semibold py-4 px-8 rounded-lg transition-all duration-300">
               Nous contacter
-            </Link>
+            </a>
           </div>
         </div>
       </section>

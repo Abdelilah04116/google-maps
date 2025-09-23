@@ -106,12 +106,12 @@ const About = () => {
                 et à attirer plus de clients grâce à des stratégies éprouvées et des résultats mesurables.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/pricing" className="btn-primary text-lg px-8 py-4">
+                <a href="/pricing#tarifs" className="btn-primary text-lg px-8 py-4">
                   Découvrir nos services
-                </Link>
-                <Link to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-blue font-semibold py-4 px-8 rounded-lg transition-all duration-300">
+                </a>
+                <a href="/contact#form-contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-blue font-semibold py-4 px-8 rounded-lg transition-all duration-300">
                   Nous contacter
-                </Link>
+                </a>
               </div>
             </div>
             <div className="relative">
@@ -296,12 +296,12 @@ const About = () => {
             et attirer plus de clients.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/pricing" className="bg-white text-secondary-orange hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300">
+            <a href="/pricing#tarifs" className="bg-white text-secondary-orange hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300">
               Voir nos tarifs
-            </Link>
-            <Link to="/contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-secondary-orange font-semibold py-4 px-8 rounded-lg transition-all duration-300">
+            </a>
+            <a href="/contact#form-contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-secondary-orange font-semibold py-4 px-8 rounded-lg transition-all duration-300">
               Nous contacter
-            </Link>
+            </a>
           </div>
         </div>
       </section>

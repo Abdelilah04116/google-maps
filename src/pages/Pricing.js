@@ -112,13 +112,13 @@ const Pricing = () => {
       </section>
 
       {/* Pricing Cards */}
-      <section className="section-padding bg-background-light">
+      <section id="tarifs" className="section-padding bg-background-light">
         <div className="container-max">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {pricingPlans.map((plan) => (
               <div
                 key={plan.id}
-                className={`relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 ${
+                className={`relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex flex-col h-full ${
                   plan.popular ? 'ring-4 ring-secondary-orange scale-105' : ''
                 }`}
               >
@@ -130,7 +130,7 @@ const Pricing = () => {
                   </div>
                 )}
                 
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-grow">
                   <div className="text-center mb-6">
                     <h3 className="text-2xl font-bold text-primary-dark mb-2">
                       {plan.name}
@@ -158,16 +158,18 @@ const Pricing = () => {
                     ))}
                   </ul>
 
-                  <button
-                    onClick={() => handleOrder(plan)}
-                    className={`w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 ${
-                      plan.popular
-                        ? 'bg-secondary-orange hover:bg-orange-600 text-white'
-                        : 'bg-primary-blue hover:bg-blue-700 text-white'
-                    }`}
-                  >
-                    Commander maintenant
-                  </button>
+                  <div className="mt-auto">
+                    <button
+                      onClick={() => handleOrder(plan)}
+                      className={`w-full py-3 px-6 rounded-lg font-semibold transition-all duration-300 ${
+                        plan.popular
+                          ? 'bg-secondary-orange hover:bg-orange-600 text-white'
+                          : 'bg-primary-blue hover:bg-blue-700 text-white'
+                      }`}
+                    >
+                      Commander maintenant
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
