@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import SEOHead from '../components/SEOHead';
 
 const About = () => {
-  const team = [
+  /*const team = [
     {
       name: 'Marie Dubois',
       role: 'Fondatrice & CEO',
@@ -32,26 +32,26 @@ const About = () => {
       image: 'TM',
       experience: '7 ans'
     }
-  ];
+  ];*/
 
   const values = [
     {
-      icon: '🎯',
+      icon: '',
       title: 'Excellence',
       description: 'Nous nous efforçons de fournir des services de la plus haute qualité à chaque client.'
     },
     {
-      icon: '🤝',
+      icon: '',
       title: 'Transparence',
       description: 'Communication claire et honnête sur nos processus et résultats.'
     },
     {
-      icon: '🚀',
+      icon: '',
       title: 'Innovation',
       description: 'Nous adoptons les dernières technologies pour améliorer nos services.'
     },
     {
-      icon: '💡',
+      icon: '',
       title: 'Personnalisation',
       description: 'Chaque stratégie est adaptée aux besoins spécifiques de votre entreprise.'
     }
@@ -117,9 +117,9 @@ const About = () => {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="text-center">
-                  <div className="w-24 h-24 bg-secondary-orange rounded-full flex items-center justify-center mx-auto mb-6">
+                  {/*<div className="w-24 h-24 bg-secondary-orange rounded-full flex items-center justify-center mx-auto mb-6">
                     <span className="text-white text-4xl">⭐</span>
-                  </div>
+                  </div>*/}
                   <h3 className="text-2xl font-bold mb-4">Notre Mission</h3>
                   <p className="text-blue-100">
                     Rendre accessible à toutes les entreprises les outils nécessaires 
@@ -137,9 +137,9 @@ const About = () => {
         <div className="container-max">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="text-center">
-              <div className="w-20 h-20 bg-primary-blue rounded-full flex items-center justify-center mx-auto mb-6">
+              {/*<div className="w-20 h-20 bg-primary-blue rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-white text-3xl">🎯</span>
-              </div>
+              </div>*/}
               <h2 className="text-3xl font-bold text-primary-dark mb-4">Notre Mission</h2>
               <p className="text-lg text-text-dark leading-relaxed">
                 Aider les entreprises locales à développer leur réputation en ligne de manière 
@@ -148,12 +148,12 @@ const About = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-secondary-orange rounded-full flex items-center justify-center mx-auto mb-6">
+              {/*<div className="w-20 h-20 bg-secondary-orange rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-white text-3xl">👁️</span>
-              </div>
+              </div>*/}
               <h2 className="text-3xl font-bold text-primary-dark mb-4">Notre Vision</h2>
               <p className="text-lg text-text-dark leading-relaxed">
-                Devenir la référence française en matière de gestion de réputation en ligne, 
+                Devenir la référence en matière de gestion de réputation en ligne, 
                 en démocratisant l'accès aux outils et stratégies qui permettent aux PME 
                 de rivaliser avec les grandes entreprises.
               </p>
@@ -190,7 +190,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Team 
       <section className="section-padding">
         <div className="container-max">
           <div className="text-center mb-16">
@@ -223,7 +223,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Timeline */}
       <section className="bg-background-light section-padding">

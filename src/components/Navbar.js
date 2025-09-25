@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +31,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-secondary-orange rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">R</span>
-            </div>
+            <Logo 
+              imageSrc="/logo.png" // Remplace par le chemin de ton image : "/logo.png"
+              altText="Reviews Maps Pro Logo"
+              className="w-10 h-10"
+              textFallback="R"
+            />
             <span className="text-white font-bold text-xl">Reviews Maps Pro</span>
           </Link>
 

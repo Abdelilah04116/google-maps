@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,9 +32,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-secondary-orange rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">R</span>
-              </div>
+              <Logo 
+                imageSrc={null} // Remplace par le chemin de ton image : "/logo.png"
+                altText="Reviews Maps Pro Logo"
+                className="w-10 h-10"
+                textFallback="R"
+              />
               <span className="text-white font-bold text-xl">Reviews Maps Pro</span>
             </Link>
             <p className="text-gray-300 mb-4">

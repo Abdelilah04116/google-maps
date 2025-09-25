@@ -25,19 +25,30 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulation d'envoi de formulaire
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        subject: '',
-        message: ''
-      });
-    }, 2000);
+    // Redirection vers Google Form avec les données préremplies
+    const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfiloNa-OTfdkXx-AUoP1YsIPxA21aR3jCyX4ipK6tAj8S1sg/viewform';
+    const params = new URLSearchParams({
+      'entry.2005620554': formData.name,
+      'entry.1045781291': formData.email,
+      'entry.1166974658': formData.phone,
+      'entry.839337160': formData.company,
+      'entry.1386734267': formData.subject,
+      'entry.15295044': formData.message
+    });
+    
+    // Ouvre le Google Form dans un nouvel onglet avec les données préremplies
+    window.open(`${googleFormUrl}?${params.toString()}`, '_blank');
+    
+    setIsSubmitting(false);
+    setSubmitStatus('success');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      company: '',
+      subject: '',
+      message: ''
+    });
   };
 
   const contactInfo = [
@@ -143,9 +154,9 @@ const Contact = () => {
                   Notre localisation
                 </h3>
                 <div className="bg-background-light rounded-lg p-8 text-center">
-                  <div className="w-16 h-16 bg-primary-blue rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                  {/*<div className="w-16 h-16 bg-primary-blue rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
                     📍
-                  </div>
+                  </div>*/}
                   <p className="text-text-dark font-medium mb-2">
                     123 Avenue des Champs-Élysées
                   </p>
@@ -268,7 +279,7 @@ const Contact = () => {
 
                 {submitStatus === 'success' && (
                   <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg">
-                    ✅ Votre message a été envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.
+                    ✅ Le formulaire Google s'est ouvert dans un nouvel onglet. Veuillez finaliser l'envoi depuis Google Forms.
                   </div>
                 )}
 

@@ -36,22 +36,22 @@ const Home = () => {
 
   const features = [
     {
-      icon: '⭐',
+      icon: '',
       title: 'Reviews Authentiques',
       description: 'Des reviews naturelles et crédibles qui respectent les guidelines Google.'
     },
     {
-      icon: '🚀',
+      icon: '',
       title: 'Résultats Rapides',
       description: 'Voir vos reviews apparaître en quelques jours seulement.'
     },
     {
-      icon: '🔒',
+      icon: '',
       title: '100% Sécurisé',
       description: 'Service confidentiel et respectueux de votre réputation.'
     },
     {
-      icon: '📈',
+      icon: '',
       title: 'Boost de Visibilité',
       description: 'Améliorez votre classement Google Maps et attirez plus de clients.'
     },
@@ -89,9 +89,9 @@ const Home = () => {
             <div className="animate-slide-up">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="text-center">
-                  <div className="w-20 h-20 bg-secondary-orange rounded-full flex items-center justify-center mx-auto mb-4">
+                  {/*<div className="w-20 h-20 bg-secondary-orange rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-white text-3xl">⭐</span>
-                  </div>
+                  </div>*/}
                   <h3 className="text-2xl font-bold mb-4">Résultats Garantis</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">

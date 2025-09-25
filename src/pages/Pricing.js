@@ -9,12 +9,12 @@ const Pricing = () => {
     {
       id: 'pack1',
       name: 'Pack Starter',
-      price: 100,
+      price: 200,
       reviews: 100,
       description: 'Parfait pour les nouveaux business',
       features: [
         '100 reviews Google Maps authentiques',
-        'Livraison en 7-14 jours',
+        'Livraison en 1-3 jours',
         'Support email inclus',
         'Garantie satisfaction',
         'Rapport de livraison détaillé'
@@ -25,12 +25,12 @@ const Pricing = () => {
     {
       id: 'pack2',
       name: 'Pack Business',
-      price: 190,
+      price: 290,
       reviews: 200,
       description: 'Le plus populaire pour les PME',
       features: [
         '200 reviews Google Maps authentiques',
-        'Livraison en 5-10 jours',
+        'Livraison en 1-3 jours',
         'Support prioritaire',
         'Garantie satisfaction',
         'Rapport de livraison détaillé',
@@ -43,13 +43,13 @@ const Pricing = () => {
     {
       id: 'pack3',
       name: 'Pack Enterprise',
-      price: 0.9,
+      price: 1.5,
       reviews: 'Sur mesure',
       description: 'Pour les grandes entreprises',
       features: [
         'Reviews à partir de 200+',
-        'Prix dégressif : 0.90€/review',
-        'Livraison en 3-7 jours',
+        'Prix dégressif : 1.5€/review',
+        'Livraison en 1-2 jours',
         'Support dédié 24/7',
         'Garantie satisfaction',
         'Rapport de livraison détaillé',
@@ -138,7 +138,7 @@ const Pricing = () => {
                     <p className="text-text-dark mb-4">{plan.description}</p>
                     <div className="mb-4">
                       <span className="text-4xl font-bold text-primary-blue">
-                        {plan.price === 0.9 ? '0.90€' : `${plan.price}€`}
+                        {plan.price === 0.9 ? '1.5€' : `${plan.price}€`}
                       </span>
                       {plan.id === 'pack3' && (
                         <span className="text-text-dark">/review</span>
@@ -202,15 +202,15 @@ const Pricing = () => {
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Prix</td>
-                  <td className="px-6 py-4 text-center">100€</td>
-                  <td className="px-6 py-4 text-center">190€</td>
-                  <td className="px-6 py-4 text-center">0.90€/review</td>
+                  <td className="px-6 py-4 text-center">200€</td>
+                  <td className="px-6 py-4 text-center">390€</td>
+                  <td className="px-6 py-4 text-center">1.50€/review</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-6 py-4 font-semibold">Délai de livraison</td>
-                  <td className="px-6 py-4 text-center">7-14 jours</td>
-                  <td className="px-6 py-4 text-center">5-10 jours</td>
-                  <td className="px-6 py-4 text-center">3-7 jours</td>
+                  <td className="px-6 py-4 text-center">1-3 jours</td>
+                  <td className="px-6 py-4 text-center">1-3 jours</td>
+                  <td className="px-6 py-4 text-center">1-2 jours</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Support client</td>
