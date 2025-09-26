@@ -97,7 +97,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-2 text-gray-300">
-              <p>📧 contact@reviews-maps-pro.com</p>
+              <p>📧 reviewsmaps.pro@gmail.com</p>
               <p>📞 +33 1 23 45 67 89</p>
               <p>📍 Paris, France</p>
             </div>

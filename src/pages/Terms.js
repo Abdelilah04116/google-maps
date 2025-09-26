@@ -47,7 +47,7 @@ const Terms = () => {
                   <p>Les commandes peuvent être passées :</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Via notre site web reviews-maps-pro.com</li>
-                    <li>Par email à contact@reviews-maps-pro.com</li>
+                    <li>Par email à reviewsmaps.pro@gmail.com</li>
                     <li>Par téléphone au +33 1 23 45 67 89</li>
                   </ul>
                   <p>Toute commande implique l'acceptation sans réserve des présentes CGV. Le client déclare avoir pris connaissance des CGV avant de passer commande.</p>
@@ -164,7 +164,7 @@ const Terms = () => {
                 <h2 className="text-2xl font-bold text-primary-dark mb-4">11. Contact</h2>
                 <div className="text-text-dark">
                   <p>Pour toute question concernant ces CGV :</p>
-                  <p><strong>Email :</strong> contact@reviews-maps-pro.com</p>
+                  <p><strong>Email :</strong> reviewsmaps.pro@gmail.com</p>
                   <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
                   <p><strong>Adresse :</strong> 123 Avenue des Champs-Élysées, 75008 Paris, France</p>
                   <p><strong>Date d'entrée en vigueur :</strong> Janvier 2024</p>

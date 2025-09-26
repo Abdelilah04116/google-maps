@@ -55,7 +55,7 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      details: 'contact@reviews-maps-pro.com',
+      details: 'reviewsmaps.pro@gmail.com',
       description: 'Réponse sous 24h'
     },
     {

@@ -48,7 +48,7 @@ const Legal = () => {
                   <p>123 Avenue des Champs-Élysées</p>
                   <p>75008 Paris, France</p>
                   <p>Téléphone : +33 1 23 45 67 89</p>
-                  <p>Email : contact@reviews-maps-pro.com</p>
+                  <p>Email : reviewsmaps.pro@gmail.com</p>
                 </div>
               </section>
 
@@ -82,7 +82,7 @@ const Legal = () => {
                 <h2 className="text-2xl font-bold text-primary-dark mb-4">6. Responsabilité</h2>
                 <div className="text-text-dark space-y-3">
                   <p>Les informations contenues sur ce site sont aussi précises que possible et le site remis à jour à différentes périodes de l'année, mais peut toutefois contenir des inexactitudes ou des omissions.</p>
-                  <p>Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email, à l'adresse contact@reviews-maps-pro.com, en décrivant le problème de la manière la plus précise possible.</p>
+                  <p>Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email, à l'adresse reviewsmaps.pro@gmail.com, en décrivant le problème de la manière la plus précise possible.</p>
                 </div>
               </section>
 
@@ -112,7 +112,7 @@ const Legal = () => {
                 <h2 className="text-2xl font-bold text-primary-dark mb-4">10. Contact</h2>
                 <div className="text-text-dark">
                   <p>Pour toute question concernant ces mentions légales, vous pouvez nous contacter :</p>
-                  <p>Email : contact@reviews-maps-pro.com</p>
+                  <p>Email : reviewsmaps.pro@gmail.com</p>
                   <p>Téléphone : +33 1 23 45 67 89</p>
                   <p>Adresse : 123 Avenue des Champs-Élysées, 75008 Paris, France</p>
                 </div>
