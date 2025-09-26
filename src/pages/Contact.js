@@ -67,8 +67,8 @@ const Contact = () => {
     {
       icon: '📍',
       title: 'Adresse',
-      details: '123 Avenue des Champs-Élysées',
-      description: '75008 Paris, France'
+      details: '340 Bd Tah, Casablanca',
+      description: 'Casablanca maroc'
     },
     {
       icon: '💬',
@@ -158,14 +158,14 @@ const Contact = () => {
                     📍
                   </div>*/}
                   <p className="text-text-dark font-medium mb-2">
-                    123 Avenue des Champs-Élysées
+                    340 Bd Tah, Casablanca
                   </p>
                   <p className="text-text-dark">
-                    75008 Paris, France
+                    Casablanca maroc
                   </p>
-                  <button className="mt-4 bg-primary-blue text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                  {/*<button className="mt-4 bg-primary-blue text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">
                     Voir sur Google Maps
-                  </button>
+                  </button>*/}
                 </div>
               </div>
             </div>

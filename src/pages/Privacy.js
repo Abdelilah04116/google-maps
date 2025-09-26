@@ -160,7 +160,7 @@ const Privacy = () => {
                   <p>Pour toute question concernant cette politique de confidentialité :</p>
                   <p><strong>Délégué à la protection des données :</strong> privacy@reviews-maps-pro.com</p>
                   <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
-                  <p><strong>Adresse :</strong> 123 Avenue des Champs-Élysées, 75008 Paris, France</p>
+                  <p><strong>Adresse :</strong> 340 Bd Tah, Casablanca, Casablanca maroc</p>
                 </div>
               </section>
 

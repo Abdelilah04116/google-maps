@@ -67,7 +67,7 @@ const SEOHead = ({
           },
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "123 Avenue des Champs-Élysées",
+            "streetAddress": "340 Bd Tah, Casablanca",
             "addressLocality": "Paris",
             "postalCode": "75008",
             "addressCountry": "FR"

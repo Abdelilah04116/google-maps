@@ -45,8 +45,8 @@ const Legal = () => {
               <section>
                 <h2 className="text-2xl font-bold text-primary-dark mb-4">2. Siège social</h2>
                 <div className="text-text-dark">
-                  <p>123 Avenue des Champs-Élysées</p>
-                  <p>75008 Paris, France</p>
+                  <p>340 Bd Tah, Casablanca</p>
+                  <p>Casablanca maroc</p>
                   <p>Téléphone : +33 1 23 45 67 89</p>
                   <p>Email : reviewsmaps.pro@gmail.com</p>
                 </div>
@@ -114,7 +114,7 @@ const Legal = () => {
                   <p>Pour toute question concernant ces mentions légales, vous pouvez nous contacter :</p>
                   <p>Email : reviewsmaps.pro@gmail.com</p>
                   <p>Téléphone : +33 1 23 45 67 89</p>
-                  <p>Adresse : 123 Avenue des Champs-Élysées, 75008 Paris, France</p>
+                  <p>Adresse : 340 Bd Tah, Casablanca, Casablanca maroc</p>
                 </div>
               </section>
 

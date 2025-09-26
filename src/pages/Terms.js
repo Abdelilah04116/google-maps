@@ -166,7 +166,7 @@ const Terms = () => {
                   <p>Pour toute question concernant ces CGV :</p>
                   <p><strong>Email :</strong> reviewsmaps.pro@gmail.com</p>
                   <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
-                  <p><strong>Adresse :</strong> 123 Avenue des Champs-Élysées, 75008 Paris, France</p>
+                  <p><strong>Adresse :</strong> 340 Bd Tah, Casablanca, Casablanca maroc</p>
                   <p><strong>Date d'entrée en vigueur :</strong> Janvier 2024</p>
                 </div>
               </section>
