@@ -99,7 +99,7 @@ const Footer = () => {
             <div className="space-y-2 text-gray-300">
               <p>📧 reviewsmaps.pro@gmail.com</p>
               <p>📞 +33 1 23 45 67 89</p>
-              <p>📍 Paris, France</p>
+              <p>📍Casablanca maroc</p>
             </div>
           </div>
         </div>
