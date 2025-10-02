@@ -48,7 +48,7 @@ const Terms = () => {
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Via notre site web reviews-maps-pro.com</li>
                     <li>Par email à reviewsmaps.pro@gmail.com</li>
-                    <li>Par téléphone au +33 1 23 45 67 89</li>
+                    <li>Par téléphone au +212649557522</li>
                   </ul>
                   <p>Toute commande implique l'acceptation sans réserve des présentes CGV. Le client déclare avoir pris connaissance des CGV avant de passer commande.</p>
                 </div>
@@ -165,7 +165,7 @@ const Terms = () => {
                 <div className="text-text-dark">
                   <p>Pour toute question concernant ces CGV :</p>
                   <p><strong>Email :</strong> reviewsmaps.pro@gmail.com</p>
-                  <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+                  <p><strong>Téléphone :</strong> +212649557522</p>
                   <p><strong>Adresse :</strong> 340 Bd Tah, Casablanca, Casablanca maroc</p>
                   <p><strong>Date d'entrée en vigueur :</strong> Janvier 2024</p>
                 </div>

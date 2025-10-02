@@ -61,7 +61,7 @@ const Contact = () => {
     {
       icon: '📞',
       title: 'Téléphone',
-      details: '+33 1 23 45 67 89',
+      details: '+212649557522',
       description: 'Lun-Ven 9h-18h'
     },
     {
@@ -221,7 +221,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-blue focus:border-transparent transition-all duration-300"
-                      placeholder="+33 1 23 45 67 89"
+                      placeholder="+212649557522"
                     />
                   </div>
                   <div>

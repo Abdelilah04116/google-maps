@@ -47,7 +47,7 @@ const Legal = () => {
                 <div className="text-text-dark">
                   <p>340 Bd Tah, Casablanca</p>
                   <p>Casablanca maroc</p>
-                  <p>Téléphone : +33 1 23 45 67 89</p>
+                  <p>Téléphone : +212649557522</p>
                   <p>Email : reviewsmaps.pro@gmail.com</p>
                 </div>
               </section>
@@ -113,7 +113,7 @@ const Legal = () => {
                 <div className="text-text-dark">
                   <p>Pour toute question concernant ces mentions légales, vous pouvez nous contacter :</p>
                   <p>Email : reviewsmaps.pro@gmail.com</p>
-                  <p>Téléphone : +33 1 23 45 67 89</p>
+                  <p>Téléphone : +212649557522</p>
                   <p>Adresse : 340 Bd Tah, Casablanca, Casablanca maroc</p>
                 </div>
               </section>
