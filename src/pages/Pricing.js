@@ -86,8 +86,11 @@ const Pricing = () => {
   };
 
   const handleOrder = (plan) => {
-    // Ici vous pouvez intégrer un système de paiement ou rediriger vers un formulaire
-    alert(`Commande du ${plan.name} - ${plan.price}${plan.id === 'pack3' ? '/review' : ''}€`);
+    // Redirection vers WhatsApp avec le numéro et les détails de la commande
+    const phoneNumber = '+212649557522';
+    const message = `Bonjour ! Je souhaite commander le ${plan.name} pour ${plan.price}${plan.id === 'pack3' ? '/review' : ''}€. Pouvez-vous me donner plus d'informations ?`;
+    const whatsappUrl = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -203,7 +206,7 @@ const Pricing = () => {
                 <tr className="border-b bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Prix</td>
                   <td className="px-6 py-4 text-center">200€</td>
-                  <td className="px-6 py-4 text-center">390€</td>
+                  <td className="px-6 py-4 text-center">290€</td>
                   <td className="px-6 py-4 text-center">1.50€/review</td>
                 </tr>
                 <tr className="border-b">
